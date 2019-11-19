@@ -1,0 +1,48 @@
+body{
+    background-color: #e2e2e2;
+    font-family:  Microsoft JhengHei;
+}
+#goRegister{
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+@media screen and (max-width:767px){
+    #container{
+        position: relative;
+        margin: 20px auto;
+        height: 600px;
+        width: 500px;
+        background-color: #ffffff;
+        border-radius:10px;
+        padding: 30px 30px;
+        box-shadow:0px 0px 12px 4px rgba(20%,20%,20%,0.5);  
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){   
+    #container{
+        position: relative;
+        margin: 50px auto;
+        height: 550px;
+        width: 700px;
+        background-color: #ffffff;
+        border-radius:10px;
+        padding: 30px 30px;
+        box-shadow:0px 0px 12px 4px rgba(20%,20%,20%,0.5);  
+    }
+}
+
+@media screen and (min-width:1025px){   
+    #container{
+        position: relative;
+        margin: 10vh auto;
+        height: 75vh;
+        width: 30vw;
+        background-color: #ffffff;
+        border-radius:10px;
+        padding: 30px 30px;
+        box-shadow:0px 0px 12px 4px rgba(20%,20%,20%,0.5);  
+    } 
+}

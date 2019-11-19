@@ -1,0 +1,171 @@
+#navbar{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    z-index: 1;
+}
+.logInAndRegister{
+    margin-right: 3px;
+}
+#classification{
+    position: fixed;
+    background-color: #d1c8c8;
+    top: 8vh;
+    width: 18vw;
+    height: 92vh;
+    overflow-y: scroll;
+    display: none;
+    z-index: 1;
+}
+#footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #353434;
+    top: 9vh;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.classCollapse{
+    height: 30px;
+    width: 30px;
+    z-index: 2;
+}
+#classClose{
+    position: fixed;
+    left: 19vw;
+    top: 50vh;
+    display: none;
+}
+#classOpen{
+    position: fixed;
+    left: 1vw;
+    top: 50vh;
+}
+.zone{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+/* 各板滑鼠移動效果 */
+.zone:hover{
+    background-color: #888888;
+    transition: 1s;
+}
+/* 各板滑鼠移動效果 */
+#formCenter{
+    position: relative;
+    margin: auto;
+}
+#container{
+    position: relative;
+    top: 9vh;
+    margin: auto;
+    height: 1015px;
+    width: 80vw;
+    margin-bottom: 10px;
+}
+#hotPo{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: #ffffff;
+}
+#newPo{
+    position: absolute;
+    height: 500px;
+    top: 515px;
+    width: 100%;
+    background-color: #ffffff;
+    overflow-y: scroll;
+}
+#hotPo .postItem{
+    background-color: #ffffff;
+    height: 130px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #d1c8c8;
+}
+#newPo .postItem{
+    background-color: #ffffff;
+    height: 70px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #d1c8c8;
+}
+#detectionzone{
+    position: fixed;
+    height: 100vh;
+    width: 55px;
+}
+
+div .row{
+    margin: 0;
+}
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:767px){
+    #logInZone{
+        position: relative;
+        top: 10vh;
+        margin: auto;
+        height: 600px;
+        width: 500px;
+        background-color: #ffffff;
+        border-radius:10px;
+        padding: 30px 30px;
+        box-shadow:0px 0px 12px 4px rgba(20%,20%,20%,0.5);  
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    #logInZone{
+        position: relative;
+        top: 10vh;
+        margin: auto;
+        height: 550px;
+        width: 700px;
+        background-color: #ffffff;
+        border-radius:10px;
+        padding: 30px 30px;
+        box-shadow:0px 0px 12px 4px rgba(20%,20%,20%,0.5);  
+        display: none;
+    }
+}
+
+@media screen and (min-width:1025px){
+    #logInZone{
+        position: relative;
+        top: 10vh;
+        margin: auto;
+        height: 75vh;
+        width: 30vw;
+        background-color: #ffffff;
+        border-radius:10px;
+        padding: 30px 30px;
+        box-shadow:0px 0px 12px 4px rgba(20%,20%,20%,0.5);  
+        display: none;
+    }
+}
+
+/* 測試用 */
+body{
+    font-family:  Microsoft JhengHei;
+    background-color: #c0c0c0;
+}
+/* 測試用 */
